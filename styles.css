@@ -422,20 +422,20 @@ img {
 
   .benefit {
     padding: 16px;
-    word-wrap: break-word;
+    word-break: break-word;
     overflow-wrap: break-word;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
-  .benefit h3 {
-    font-size: 18px;
-    margin-bottom: 6px;
-  }
-
+  .benefit h3,
   .benefit p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.4;
+    margin: 0;
   }
 }
+
 
     
         
