@@ -344,29 +344,28 @@ img {
   border-color: #4a86e8;
 }
 
-/* 📱 Responsive */
 @media (max-width: 980px) {
   .corner-logo {
     bottom: 8px;
     left: 8px;
-    width: 70px;
+    width: 50px; /* más pequeño en celular */
   }
 }
+
 
 .corner-logo {
   position: fixed;
   bottom: 12px;
   left: 12px;
-  z-index: 1;       /* más bajo que los botones */
-  width: 80px;
+  z-index: 1;          /* detrás de botones */
+  width: 60px;         /* tamaño controlado */
   height: auto;
-  pointer-events: none; /* evita que bloquee clics */
-  }
+  pointer-events: none; /* no bloquea clics */
+}
 
 .corner-logo img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
-  object-fit: contain;
   display: block;
 }
 
