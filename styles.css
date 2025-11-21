@@ -357,10 +357,10 @@ img {
 
 
 .corner-logo {
-  position: fixed;       /* siempre fijo */
-  bottom: 10px;          /* pegado al borde inferior */
-  left: 10px;            /* pegado al borde izquierdo */
-  width: 60px;           /* tamaño controlado */
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 60px;
   height: 60px;
   z-index: 999;          /* encima de todo */
   pointer-events: none;  /* no bloquea clics */
