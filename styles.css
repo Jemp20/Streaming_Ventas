@@ -349,7 +349,7 @@ img {
   .header-wrap {
     flex-direction: column;
     height: auto;
-    padding: 12px 0;   /* ← aquí estaba el error, ahora corregido */
+    padding: 12px 0;   
     gap: 12px;
   }
 
@@ -411,6 +411,29 @@ img {
   .btn-whatsapp {
     font-size: 14px;
     padding: 10px 16px;
+  }
+}
+
+@media (max-width: 980px) {
+  .benefits-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .benefit {
+    padding: 16px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .benefit h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .benefit p {
+    font-size: 14px;
+    line-height: 1.4;
   }
 }
 
