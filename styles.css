@@ -344,18 +344,16 @@ img {
   border-color: #4a86e8;
 }
 
-/* ✅ Logo fijo con color de fondo */
 .corner-logo {
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
+  position: fixed !important;  /* fuerza que sea fijo */
+  bottom: 10px;                /* esquina inferior */
+  left: 10px;                  /* esquina izquierda */
   width: 60px;
   height: 60px;
   z-index: 9999;
   pointer-events: none;
 
-  /* Color y estilo */
-  background: var(--primary);         /* fondo oscuro elegante */
+  background: var(--panel-alt); /* color de fondo */
   border: 1px solid #1f2434;
   border-radius: 12px;
   box-shadow: var(--shadow);
