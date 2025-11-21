@@ -344,39 +344,80 @@ img {
   border-color: #4a86e8;
 }
 
-.corner-logo {
-  position: fixed !important;  /* fuerza que sea fijo */
-  bottom: 10px;                /* esquina inferior */
-  left: 10px;                  /* esquina izquierda */
-  width: 60px;
-  height: 60px;
-  z-index: 9999;
-  pointer-events: none;
-
-  background: var(--panel-alt); /* color de fondo */
-  border: 1px solid #1f2434;
-  border-radius: 12px;
-  box-shadow: var(--shadow);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px;
-}
-
-.corner-logo img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
-}
-
+/* 📱 Responsivo */
 @media (max-width: 980px) {
-  .corner-logo {
-    width: 50px;
-    height: 50px;
-    bottom: 8px;
-    left: 8px;
-    padding: 6px;
+  .header-wrap {
+    flex-direction: column;
+    height: auto;
+    padding: 12px 0;   /* ← aquí estaba el error, ahora corregido */
+    gap: 12px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .section {
+    padding: 40px 0;
+  }
+
+  .card-title h3 {
+    font-size: 16px;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .btn-whatsapp {
+    font-size: 14px;
+    padding: 10px 16px;
   }
 }
+
+    
+        
+
+        
+    
+
+    
