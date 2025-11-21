@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Streaming Pro | Cuentas y Pantallas</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Venta de cuentas y pantallas de streaming. Planes flexibles, atención rápida y soporte confiable." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-wrap">
+      <div class="corner-logo">
+  <img src="assets/Logo.PNG" alt="Streaming Joel Logo">
+</div>
+
+      <nav class="nav">
+        <a href="#planes" class="nav-link">Planes</a>
+        <a href="#beneficios" class="nav-link">Beneficios</a>
+        <a href="#faq" class="nav-link">Preguntas</a>
+        <a href="#contacto" class="btn btn-outline">Contactar</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <section id="planes" class="section">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Todo tu streaming, al mejor precio</h1>
+        <p>Escoge cuentas y pantallas originales según tu necesidad. Activación rápida y soporte claro.</p>
+        <div class="hero-cta">
+          <a href="#planes" class="btn btn-primary">Ver planes</a>
+        <a href="https://wa.me/573044647130?text=Hola,%20quiero%20informacion%20sobre%20las%20plataformas" 
+   class="btn btn-whatsapp" target="_blank">
+   💬 Hablar por WhatsApp
+</a>
+
+        </div>
+        <div class="trust-badges">
+          <span>Entrega rápida</span>
+          <span>Soporte por chat</span>
+          <span>Pagos seguros</span>
+        </div>
+    </div>
+  </section>
+
+  <!-- Planes -->
+  <div class="filters">
+  <select id="service-select" class="select">
+    <option value="">Servicio</option>
+  </select>
+
+  <select id="cycle-select" class="select">
+    <option value="">Ciclo de pago</option>
+    <option value="Mensual">Mensual</option>
+    
+  </select>
+
+  <input id="search-input" class="input" type="text" placeholder="Buscar (p. ej. 1 pantalla, Full HD)">
+</div>
+
+<div id="plans-container" class="cards-grid"></div>
+
+
+  <!-- Beneficios -->
+  <section id="beneficios" class="section alt">
+    <div class="container">
+      <h2>Por qué elegirnos</h2>
+      <div class="benefits-grid">
+        <div class="benefit">
+          <span class="benefit-icon">⚡</span>
+          <h3>Activación rápida</h3>
+          <p>Recibes tu acceso y guía en pocos minutos tras confirmar el pago.</p>
+        </div>
+        <div class="benefit">
+          <span class="benefit-icon">🎯</span>
+          <h3>Planes flexibles</h3>
+          <p>Mensual; elige pantallas y calidad según tu uso.</p>
+        </div>
+        <div class="benefit">
+          <span class="benefit-icon">🛡️</span>
+          <h3>Transparencia</h3>
+          <p>Solo planes con respaldo y soporte, cumpliendo términos de cada servicio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="container">
+      <h2>Preguntas frecuentes</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>¿Cómo se activa mi plan?</summary>
+          <p>Tras el pago, te enviamos acceso y pasos claros para iniciar. Atención por WhatsApp.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Qué incluye “pantallas”?</summary>
+          <p>Es el número de dispositivos simultáneos que pueden usar la cuenta, según el plan.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Puedo cambiar de plan luego?</summary>
+          <p>Sí, puedes ampliar pantallas o cambiar de ciclo en tu próxima renovación.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Cumplen los términos de cada servicio?</summary>
+          <p>Operamos con planes permitidos. No ofrecemos acceso no autorizado.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="section alt">
+    <div class="container contact-card">
+      <div class="contact-text">
+        <h2>¿Listo para activar tu plan?</h2>
+        <p>Escríbenos y te guiamos en minutos. Atención personalizada.</p>
+        <a id="whatsappBtn" href="#" class="btn btn-primary">WhatsApp</a>
+      </div>
+      <div class="contact-info">
+        <ul class="contact-list">
+          <li><strong>WhatsApp:</strong> +57 304-464-7130</li>
+          <li><strong>Horario:</strong> Lun–Domg, 9:00am–19:00pm (COL)</li>
+          <li><strong>Ciudad:</strong> Barranquilla, Atlántico</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name">Streaming Joel</span>
+        <p class="fine">© 2025. Todos los derechos reservados.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#planes">Planes</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#faq">Preguntas</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
