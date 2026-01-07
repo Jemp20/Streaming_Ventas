@@ -69,20 +69,26 @@
 
 
   <!-- Planes -->
-  <div class="filters">
-    <select id="service-select" class="select">
-      <option value="">Servicio</option>
-    </select>
+<section id="planes" class="section">
+  <div class="container">
+    <h2>Planes disponibles</h2>
+    <div class="filters">
+      <select id="service-select" class="select">
+        <option value="">Servicio</option>
+      </select>
 
-    <select id="cycle-select" class="select">
-      <option value="">Ciclo de pago</option>
-      <option value="Mensual">Mensual</option>
-    </select>
+      <select id="cycle-select" class="select">
+        <option value="">Ciclo de pago</option>
+        <option value="Mensual">Mensual</option>
+      </select>
 
-    <input id="search-input" class="input" type="text" placeholder="Buscar (p. ej. 1 pantalla, Full HD)">
+      <input id="search-input" class="input" type="text" placeholder="Buscar (p. ej. 1 pantalla, Full HD)">
+    </div>
+
+    <div id="plans-container" class="cards-grid"></div>
   </div>
+</section>
 
-  <div id="plans-container" class="cards-grid"></div>
 
   <!-- Beneficios -->
   <section id="beneficios" class="section alt">
