@@ -565,28 +565,37 @@ img {
 
 @media (max-width: 980px) {
   .hero {
-    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;       /* Centra verticalmente */
+    justify-content: center;   /* Centra horizontalmente */
+    text-align: center;        /* Centra el texto */
     padding: 40px 20px;
   }
 
   .hero-grid {
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;       /* Centra contenido */
+    justify-content: center;
+    gap: 24px;
     text-align: center;
+    width: 100%;
   }
 
   .hero-text {
     text-align: center;
     margin: 0 auto;
+    max-width: 600px;
   }
 
   .hero-cta {
     align-items: center;
     justify-content: center;
+    gap: 16px;
+    margin: 0 auto;
+    width: 100%;
   }
-}
-
-
 
   .hero-cta .btn,
   .hero-cta .btn-whatsapp {
@@ -594,6 +603,14 @@ img {
     max-width: 320px;
     margin: 0 auto;
   }
+
+  .hero-img {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
 
   /* Otros estilos responsivos que ya tenías */
   .cards-grid { grid-template-columns: 1fr; }
