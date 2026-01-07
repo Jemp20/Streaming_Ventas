@@ -129,16 +129,21 @@ img {
   margin-top: 24px;
 }
 
+.badges {
+  background-color: #121622;
+  padding: 24px 16px;
+  text-align: center;
+}
 
-
-
-.trust-badges span {
-  background: var(--panel);
-  border: 1px solid #1f2434;
-  color: var(--muted);
-  padding: 8px 12px;
-  border-radius: 999px;
+.trust-badges {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
   font-size: 14px;
+  color: #fff;
+}
+14px;
 }
 
 /* 🔍 Filtros */
