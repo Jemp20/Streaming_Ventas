@@ -491,24 +491,22 @@ img {
   margin: 0 0 20px;
 }
 
-/* 📱 Botones dentro del hero */
 .hero-cta {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start; /* Alineado con el texto */
   gap: 16px;
   margin-top: 24px;
   margin-bottom: 24px;
-  width: 100%;
 }
 
 .hero-cta .btn,
 .hero-cta .btn-whatsapp {
-  width: 90%;
+  width: auto;
   max-width: 320px;
   text-align: center;
-  margin: 0 auto;
 }
+
 
 /* 🖥️ Desktop: botones uno debajo del otro */
 @media (min-width: 981px) {
@@ -536,21 +534,19 @@ img {
   }
 }
 
-/* 📱 Móvil */
-@media (max-width: 980px) {
-  .hero-grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 24px;
-  }
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Una sola columna */
+  gap: 24px;
+  text-align: left;
+}
 
-  .hero-text {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-  }
+.hero-text {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
 
   .hero-img {
     width: 100%;
