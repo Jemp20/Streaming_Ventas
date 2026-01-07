@@ -573,6 +573,13 @@ img {
     padding: 40px 20px;
   }
 
+  .hero-cta .btn-whatsapp {
+  display: block;          /* Se comporta como bloque */
+  margin: 0 auto;          /* Lo centra horizontalmente */
+  text-align: center;      /* Centra el texto dentro */
+}
+
+  
   .hero-grid {
     display: flex;
     flex-direction: column;
