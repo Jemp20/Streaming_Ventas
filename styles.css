@@ -569,6 +569,39 @@ img {
   }
 }
 
+/* 📱 Responsivo */
+@media (max-width: 980px) {
+  .header-wrap {
+    flex-direction: column;
+    height: auto;
+    padding: 12px 0;
+    gap: 12px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero-cta {
+    align-items: center;
+  }
+
+  /* ...otros estilos responsivos que ya tienes... */
+}
+
 
 
 
