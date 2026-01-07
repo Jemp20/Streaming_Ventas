@@ -606,7 +606,12 @@ img {
 }
 
 
-.hero-cta .btn,
+.hero-cta .btn {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .hero-cta .btn-whatsapp {
   width: 100%;
   max-width: 320px;
