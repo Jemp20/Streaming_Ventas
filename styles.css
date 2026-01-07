@@ -127,7 +127,9 @@ img {
   flex-wrap: wrap;
   gap: 12px;
   margin-top: 24px;
+  text-align: center;
 }
+
 
 
 .trust-badges span {
