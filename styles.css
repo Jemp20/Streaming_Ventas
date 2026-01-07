@@ -499,6 +499,7 @@ img {
   gap: 16px;
   margin-top: 24px;
   margin-bottom: 24px;
+  width: 100%;
 }
 
 .hero-cta .btn,
@@ -506,15 +507,24 @@ img {
   width: 90%;
   max-width: 320px;
   text-align: center;
+  margin: 0 auto;
 }
 
-/* 🖥️ Desktop */
+/* 🖥️ Desktop: botones uno debajo del otro */
 @media (min-width: 981px) {
   .hero-cta {
-    flex-direction: row;
-    justify-content: flex-start; /* Botones alineados con el texto */
-    gap: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 32px;
   }
+
+  .hero-cta .btn,
+  .hero-cta .btn-whatsapp {
+    width: auto;
+    margin-left: 0;
+  }
+}
+
 
   .hero-cta .btn,
   .hero-cta .btn-whatsapp {
