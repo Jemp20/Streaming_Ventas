@@ -599,23 +599,18 @@ img {
  .hero-cta {
   display: flex;
   flex-direction: column;
-  align-items: center;   /* Antes estaba flex-start */
-  gap: 16px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-
-
-.hero-cta .btn {
-  display: block;
-  margin: 0 auto;
+  align-items: center;     /* Centra horizontalmente */
+  justify-content: center; /* Centra verticalmente */
+  width: 100%;             /* Ocupa todo el ancho */
   text-align: center;
 }
 
+.hero-cta .btn,
 .hero-cta .btn-whatsapp {
-  width: 100%;
-  max-width: 320px;
-  margin: 0 auto;        /* Asegura que quede centrado */
+  display: block;
+  margin: 0 auto;          /* Fuerza el centrado */
+  width: 100%;             /* Que se expanda en móvil */
+  max-width: 320px;        /* Límite de ancho */
   text-align: center;
 }
 
