@@ -486,6 +486,29 @@ img {
   margin: 0 0 20px;
 }
 
+/* 🏠 Hero */
+.hero {
+  padding: 72px 0;
+  background: linear-gradient(120deg, #0b0d12, #121622 60%, #0b0d12);
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  margin: 0 0 12px;
+}
+
+.hero-text p {
+  color: var(--muted);
+  margin: 0 0 20px;
+}
+
 /* 📱 Botones dentro del hero */
 .hero-cta {
   display: flex;
@@ -524,39 +547,13 @@ img {
     margin-bottom: 32px;
   }
 
-  .hero-cta {
-  display: flex;
-  flex-direction: column;
-  align-items: center;       /* Centra horizontalmente */
-  justify-content: center;
-  gap: 16px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  width: 100%;
-}
-
-.hero-cta .btn,
-.hero-cta .btn-whatsapp {
-  width: 90%;
-  max-width: 320px;
-  text-align: center;
-  margin: 0 auto;            /* Asegura centrado si hay estilos heredados */
-}
-
-/* 🖥️ Desktop: botones lado a lado */
-@media (min-width: 768px) {
-  .hero-cta {
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-  }
-
   .hero-cta .btn,
   .hero-cta .btn-whatsapp {
-    width: auto;
-    margin: 0;
+    font-size: 16px;
+    padding: 14px 20px;
   }
 }
+
 
 
 
