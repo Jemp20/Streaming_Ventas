@@ -569,7 +569,7 @@ img {
     justify-content: center;
   }
 
-  /* Hero: de grid a columna centrada en móvil */
+  /* Hero responsivo */
   .hero-grid {
     display: flex;
     flex-direction: column;
@@ -583,15 +583,22 @@ img {
     margin: 0 auto;
   }
 
-  /* Botones centrados en móvil */
   .hero-cta {
     align-items: center;
+    justify-content: center;
     gap: 16px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin: 0;
+    width: 100%;
   }
 
-  /* Resto ya lo tenías, lo mantenemos */
+  .hero-cta .btn,
+  .hero-cta .btn-whatsapp {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  /* Otros estilos responsivos que ya tenías */
   .cards-grid { grid-template-columns: 1fr; }
   .benefits-grid { grid-template-columns: 1fr; }
   .contact-card { grid-template-columns: 1fr; text-align: center; }
