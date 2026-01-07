@@ -589,15 +589,15 @@ img {
     max-width: 600px;
   }
 
-  .hero-cta {
+ .hero-cta {
   display: flex;
   flex-direction: column;
-  align-items: center;   /* Centra horizontalmente */
-  justify-content: center;
+  align-items: center;   /* Antes estaba flex-start */
   gap: 16px;
-  margin: 0 auto;
-  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
+
 
 .hero-cta .btn,
 .hero-cta .btn-whatsapp {
