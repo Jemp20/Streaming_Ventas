@@ -604,13 +604,6 @@ img {
     margin: 0 auto;
   }
 
-  .hero-img {
-    width: 100%;
-    max-width: 320px;
-    margin: 0 auto;
-  }
-}
-
 
   /* Otros estilos responsivos que ya tenías */
   .cards-grid { grid-template-columns: 1fr; }
