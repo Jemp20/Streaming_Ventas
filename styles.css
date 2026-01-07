@@ -121,13 +121,15 @@ img {
   box-shadow: var(--shadow);
 }
 
-/* ✅ Confianza */
 .trust-badges {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 12px;
-  margin-top: 12px;
+  margin-top: 24px;
 }
+
+
 .trust-badges span {
   background: var(--panel);
   border: 1px solid #1f2434;
