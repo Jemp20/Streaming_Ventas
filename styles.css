@@ -546,12 +546,7 @@ img {
     text-align: left;
   }
 
-  .hero-img {
-    width: 100%;
-    max-width: 320px;
-    margin: 0 auto;
-  }
-}
+ 
 
 @media (max-width: 980px) {
   .hero {
