@@ -121,30 +121,6 @@ img {
   box-shadow: var(--shadow);
 }
 
-.trust-badges {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 24px;
-}
-
-.badges {
-  background-color: #121622;
-  padding: 24px 16px;
-  text-align: center;
-}
-
-.trust-badges {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 16px;
-  font-size: 14px;
-  color: #fff;
-}
-14px;
-}
 
 /* 🔍 Filtros */
 .filters {
@@ -563,6 +539,7 @@ img {
     justify-content: center;
     text-align: center;
     padding: 40px 20px;
+    min-height: 100vh;
   }
 
   .hero-grid {
@@ -571,8 +548,8 @@ img {
     align-items: center;
     justify-content: center;
     gap: 24px;
-    text-align: center;
     width: 100%;
+    text-align: center;
   }
 
   .hero-text {
@@ -597,6 +574,28 @@ img {
     max-width: 320px;
     text-align: center;
   }
+
+  .hero-img {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .badges {
+    background-color: #121622;
+    padding: 24px 16px;
+    text-align: center;
+  }
+
+  .trust-badges {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 14px;
+    color: #fff;
+  }
+}
 
   
 
