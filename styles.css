@@ -626,6 +626,43 @@ img {
   text-align: center;
 }
 
+.filters {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+/* En escritorio: filtros en fila */
+@media (min-width: 769px) {
+  .filters {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .filters .select,
+  .filters .input {
+    flex: 1;
+    min-width: 200px;
+  }
+}
+
+/* En móvil: filtros apilados y ocupando todo el ancho */
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filters .select,
+  .filters .input {
+    width: 100%;
+    min-width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+}
     
         
 
