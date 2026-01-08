@@ -594,6 +594,33 @@ img {
   margin-bottom: 24px;
 }
 
+/* Estilos generales para los select */
+.select {
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 2px solid #3b82f6;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #0b0d12;
+  color: #fff;
+  width: 100%; /* 🔑 ocupa todo el ancho en móvil */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Solo en pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  #cycle-select {
+    display: block;
+    width: 100%;          /* 🔑 mismo ancho que los botones */
+    margin-top: 12px;
+  }
+
+  .btn,
+  .select {
+    min-width: 100%;      /* 🔑 asegura que todos ocupen el mismo ancho */
+  }
+}
 
 
 
