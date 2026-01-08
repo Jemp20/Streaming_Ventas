@@ -55,26 +55,22 @@ img {
   margin: 0;
 }
 
-/* 🔝 Header */
-.header {
-  position: sticky;
-  top: 0;
-  background: rgba(11, 13, 18, 0.8);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid #1f2434;
-  z-index: 50;
+.header { 
+  background: #0b0d12; /* color de fondo opcional */ 
+  padding: 16px 0; 
 }
-.header-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 64px;
+
+.header-wrap { 
+  display: flex; 
+  justify-content: center; /* 🔑 centra horizontalmente */ 
 }
+
 .brand {
   display: flex;
   align-items: center;
   gap: 12px;
 }
+
 .logo {
   width: 36px;
   height: 36px;
@@ -84,17 +80,23 @@ img {
 .brand-name {
   font-weight: 700;
 }
-.nav {
-  display: flex;
-  align-items: center;
-  gap: 16px;
+
+.nav { 
+  display: flex; 
+  gap: 24px; /* espacio entre enlaces */ 
+  align-items: center; 
 }
-.nav-link {
-  color: var(--muted);
-  text-decoration: none;
+
+.nav-link, 
+.btn.btn-outline { 
+  color: #fff; 
+  text-decoration: none; 
+  font-weight: 600; transition: color 0.3s; 
 }
-.nav-link:hover {
-  color: var(--text);
+
+.nav-link:hover, 
+.btn.btn-outline:hover { 
+  color: #3b82f6; /* azul al pasar el mouse */
 }
 
 /* 🏠 Hero */
