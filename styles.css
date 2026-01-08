@@ -663,7 +663,7 @@ img {
     box-sizing: border-box;
   }
 }
-    
+
 .contact-text {
   text-align: center;        /* 🔑 centra el texto */
   margin: 0 auto;
@@ -678,7 +678,7 @@ img {
   display: inline-block;
   margin: 0 auto;
 }
-        
+
 .footer {
   background: #0b0d12;       /* color de fondo opcional */
   padding: 20px 0;
@@ -722,7 +722,27 @@ img {
   border-radius: 6px;
   font-weight: 600;
   text-align: center;
-}        
-    
+}
 
+.footer-social {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-social .social-link {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-social .social-link.instagram:hover {
+  color: #e1306c; /* color oficial de Instagram */
+}
+
+.footer-social .social-link.tiktok:hover {
+  color: #69c9d0; /* color oficial de TikTok */
+}
     
