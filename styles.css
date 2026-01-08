@@ -679,6 +679,33 @@ img {
   margin: 0 auto;
 }
         
+.footer {
+  background: #0b0d12;       /* color de fondo opcional */
+  padding: 20px 0;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: center;   /* 🔑 centra horizontalmente */
+  align-items: center;
+  text-align: center;
+}
+
+.footer-brand {
+  text-align: center;
+}
+
+.footer-brand .brand-name {
+  font-weight: 700;
+  color: #fff;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.footer-brand .fine {
+  color: #b6becc;
+  font-size: 14px;
+}
 
         
     
