@@ -526,16 +526,16 @@ img {
 
 .hero-cta {
   display: flex;
-  gap: 16px;
-  justify-content: center;
+  justify-content: center;   /* 🔑 centra horizontalmente */
+  align-items: center;
   margin-top: 24px;
 }
 
-.hero-cta .btn,
-.hero-cta .btn-whatsapp {
-  min-width: 160px;
+.hero-cta .btn {
+  min-width: 180px;
   text-align: center;
 }
+
 
 
 /* ✅ Móvil: centrado total */
