@@ -325,15 +325,12 @@ function createCard(plan) {
       </div>
       <div class="card-actions">
         <a class="btn btn-primary" href="https://wa.me/${573044647130}?text=${encodeURIComponent(`Hola, quiero el plan ${plan.service} - ${plan.screens} pantallas (${plan.cycle}) por ${currency.format(plan.price)}.`)}">Comprar por WhatsApp</a>
-       <button class="btn btn-primary" data-id="${plan.id}">Detalles</button>
       </div>
     </div>
   `;
-  el.querySelector('button[data-id]').addEventListener('click', () => {
-    alert(`Detalles del plan:\n\nServicio: ${plan.service}\nPantallas: ${plan.screens}\nCiclo: ${plan.cycle}\nPrecio: ${currency.format(plan.price)}\nCalidad: ${plan.quality}\n\nNota: ${plan.note}`);
-  });
   return el;
 }
+
 
 function renderPlans() {
   const grid = document.getElementById('plansGrid');
