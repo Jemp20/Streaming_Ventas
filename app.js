@@ -318,13 +318,18 @@ function createCard(plan) {
       <div class="meta">
         <span>${plan.cycle}</span>
         <span>Calidad: ${plan.quality}</span>
-        <span class="badge">${plan.note}</span>
       </div>
       <div class="features">
         ${plan.features.map(f => `<span class="feature">${f}</span>`).join('')}
       </div>
       <div class="card-actions">
-        <a class="btn btn-primary" href="https://wa.me/${573044647130}?text=${encodeURIComponent(`Hola, quiero el plan ${plan.service} - ${plan.screens} pantallas (${plan.cycle}) por ${currency.format(plan.price)}.`)}">Comprar por WhatsApp</a>
+        <span class="badge">${plan.note}</span>
+        <a class="btn btn-primary" 
+           href="https://wa.me/${573243520889}?text=${encodeURIComponent(
+             `Hola, quiero el plan ${plan.service} - ${plan.screens} pantallas (${plan.cycle}) por ${currency.format(plan.price)}.`
+           )}">
+           Comprar por WhatsApp
+        </a>
       </div>
     </div>
   `;
