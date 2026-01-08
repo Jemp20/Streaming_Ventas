@@ -707,7 +707,22 @@ img {
   font-size: 14px;
 }
 
-        
+.card-actions {
+  display: flex;
+  flex-direction: column;   /* 🔑 apila badge y botón */
+  align-items: center;      /* 🔑 centra horizontalmente */
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.card-actions .badge {
+  background-color: #76a1e8; /* azul */
+  color: #000;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-align: center;
+}        
     
 
     
