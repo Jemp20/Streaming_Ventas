@@ -664,6 +664,20 @@ img {
   }
 }
     
+.contact-text {
+  text-align: center;        /* 🔑 centra el texto */
+  margin: 0 auto;
+}
+
+.contact-text h2,
+.contact-text p {
+  margin-bottom: 16px;
+}
+
+.contact-text .btn-whatsapp {
+  display: inline-block;
+  margin: 0 auto;
+}
         
 
         
