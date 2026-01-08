@@ -588,6 +588,11 @@ img {
   padding: 80px 20px;
 }
 
+#planes h2 {
+  text-align: center;   /* 🔑 centra el texto */
+  font-weight: 700;
+  margin-bottom: 24px;
+}
 
 
 
