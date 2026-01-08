@@ -577,7 +577,14 @@ img {
   color: #fff;
 }
 
-
+.hero {
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/009/169/663/original/stream-overlay-twitch-overlay-blue-neon-frame-transparent-background-free-video.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 80px 20px;
+}
 
 
 
