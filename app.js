@@ -36,7 +36,7 @@ const plans = [
   service: "Netflix",
   screens: "5",
   cycle: "Mensual",
-  price: 50000,
+  price: 48000,
   quality: "Ultra HD",
   note: "Cuenta completa",
   image: "assets/Netflix.png",
@@ -58,7 +58,7 @@ const plans = [
   service: "Crunchyroll",
   screens: "4",
   cycle: "Mensual",
-  price: 18000,
+  price: 19000,
   quality: "HD",
   note: "Cuenta completa",
   image: "assets/Crunchyroll.png",
@@ -93,9 +93,9 @@ const plans = [
   service: "Netflix Internacional",
   screens: 1,
   cycle: "Mensual",
-  price: 17000,
+  price: 16000,
   quality: "Ultra HD",
-  note: "1 pantalla",
+  note: "1 pantallas",
   image: "assets/Netflix.png",
   features: ["Cuenta internacional"]
 },
@@ -105,7 +105,7 @@ const plans = [
   service: "Disney+ Premium",
   screens: 1,
   cycle: "Mensual",
-  price: 12500,
+  price: 14000,
   quality: "Ultra HD",
   note: "1 pantalla",
   image: "assets/Disney_Logo.png",
@@ -149,7 +149,7 @@ const plans = [
   service: "Vix",
   screens: 1,
   cycle: "Mensual",
-  price: 9000,
+  price: 8000,
   quality: "HD",
   note: "1 pantalla",
   image: "assets/Vix.jpg",
@@ -172,7 +172,7 @@ const plans = [
   service: "Canva",
   screens: 1,
   cycle: "Mensual",
-  price: 15000,
+  price: 14000,
   quality: "Premium",
   note: "Renovable",
   image: "assets/Canva.png",
@@ -185,7 +185,7 @@ const plans = [
     service: "Netflix",
     screens: 1,
     cycle: "Mensual",
-    price: 16000,
+    price: 15000,
     quality: "Ultra HD",
     note: "1 pantalla",
     image: "assets/Netflix.png",
@@ -208,7 +208,7 @@ const plans = [
     service: "Amazon Prime Video",
     screens: 1,
     cycle: "Mensual",
-    price: 11000,
+    price: 10000,
     quality: "HD",
     note: "1 pantalla",
     image: "assets/Prime_Video.jpg",
@@ -335,6 +335,7 @@ function createCard(plan) {
   `;
   return el;
 }
+
 
 
 function renderPlans() {
