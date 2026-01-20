@@ -49,7 +49,7 @@ const plans = [
   cycle: "Mensual",
   price: 19000,
   quality: "HD",
-  note: "3 simultáneos",
+  note: "5 simultáneos",
   image: "assets/HBO.png",
   features: ["Cuenta original"]
 },
