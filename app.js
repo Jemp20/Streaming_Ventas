@@ -49,7 +49,7 @@ const plans = [
   cycle: "Mensual",
   price: 19000,
   quality: "HD",
-  note: "5 simultáneos",
+  note: "Cuenta completa",
   image: "assets/HBO.png",
   features: ["Cuenta original"]
 },
@@ -218,11 +218,11 @@ const plans = [
 {
     id: "Disney-Completa",
     service: "Disney+ Estandar-Completa",
-    screens: 5,
+    screens: 4,
     cycle: "Mensual",
     price: 20000,
     quality: "HD",
-    note: "4 pantallas",
+    note: "Cuenta completa",
     image: "assets/Disney_Logo.png",
     features: ["Cuenta original", "Soporte rápido"]
   },
@@ -230,11 +230,11 @@ const plans = [
 {
     id: "Disney-Completa",
     service: "Disney+ Premium-Completa",
-    screens: 5,
+    screens: 4,
     cycle: "Mensual",
     price: 31000,
     quality: "HD",
-    note: "4 pantallas",
+    note: "Cuenta completa",
     image: "assets/Disney_Logo.png",
     features: ["Cuenta original", "Soporte rápido"]
   },
@@ -242,11 +242,11 @@ const plans = [
     {
     id: "prime-Completa",
     service: "Amazon Prime Video-Completa",
-    screens: 5,
+    screens: 3,
     cycle: "Mensual",
     price: 20000,
     quality: "HD",
-    note: "3 pantallas",
+    note: "Cuenta completa",
     image: "assets/Prime_Video.jpg",
     features: ["Cuenta original", "Soporte rápido"]
   },
