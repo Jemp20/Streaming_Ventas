@@ -36,7 +36,7 @@ const plans = [
   service: "Netflix",
   screens: "5",
   cycle: "Mensual",
-  price: 48000,
+  price: 50000,
   quality: "Ultra HD",
   note: "Cuenta completa",
   image: "assets/Netflix.png",
@@ -45,7 +45,7 @@ const plans = [
 {
   id: "max-full",
   service: "Max",
-  screens: 3,
+  screens: 4,
   cycle: "Mensual",
   price: 19000,
   quality: "HD",
@@ -89,19 +89,19 @@ const plans = [
 
 
 {
-  id: "netflix-int-1p",
+  id: "netflix-internacional",
   service: "Netflix Internacional",
   screens: 1,
   cycle: "Mensual",
-  price: 16000,
+  price: 17000,
   quality: "Ultra HD",
-  note: "1 pantallas",
+  note: "1 pantalla",
   image: "assets/Netflix.png",
   features: ["Cuenta internacional"]
 },
 
 {
-  id: "disney-prem-1p",
+  id: "disney-premium",
   service: "Disney+ Premium",
   screens: 1,
   cycle: "Mensual",
@@ -112,7 +112,7 @@ const plans = [
   features: ["Cuenta original", "Premium"]
 },
 {
-  id: "max-platino-1p",
+  id: "max-platino",
   service: "Max Platino",
   screens: 1,
   cycle: "Mensual",
@@ -123,7 +123,7 @@ const plans = [
   features: ["Cuenta original", "Platino"]
 },
 {
-  id: "crunchy-1p",
+  id: "crunchyroll",
   service: "Crunchyroll",
   screens: 1,
   cycle: "Mensual",
@@ -134,7 +134,7 @@ const plans = [
   features: ["Anime ilimitado", "Cuenta original"]
 },
 {
-  id: "paramount-1p",
+  id: "paramount",
   service: "Paramount+",
   screens: 1,
   cycle: "Mensual",
@@ -185,7 +185,7 @@ const plans = [
     service: "Netflix",
     screens: 1,
     cycle: "Mensual",
-    price: 15000,
+    price: 16000,
     quality: "Ultra HD",
     note: "1 pantalla",
     image: "assets/Netflix.png",
@@ -222,7 +222,7 @@ const plans = [
     cycle: "Mensual",
     price: 20000,
     quality: "HD",
-    note: "5 pantalla",
+    note: "4 pantallas",
     image: "assets/Disney_Logo.png",
     features: ["Cuenta original", "Soporte rápido"]
   },
@@ -234,7 +234,7 @@ const plans = [
     cycle: "Mensual",
     price: 31000,
     quality: "HD",
-    note: "5 pantalla",
+    note: "4 pantallas",
     image: "assets/Disney_Logo.png",
     features: ["Cuenta original", "Soporte rápido"]
   },
@@ -246,7 +246,7 @@ const plans = [
     cycle: "Mensual",
     price: 20000,
     quality: "HD",
-    note: "1 pantalla",
+    note: "3 pantallas",
     image: "assets/Prime_Video.jpg",
     features: ["Cuenta original", "Soporte rápido"]
   },
