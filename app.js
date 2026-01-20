@@ -45,7 +45,7 @@ const plans = [
 {
   id: "max-full",
   service: "Max",
-  screens: 4,
+  screens: 5,
   cycle: "Mensual",
   price: 19000,
   quality: "HD",
